@@ -142,10 +142,6 @@ object {
 .img-fluid {
 	border-radius: .3em;
 }
-.featured-date {
-	color: #50505F;
-	margin-left: .5em;
-}
 .albumcover {
 	opacity: .90;
 	margin-bottom: .2em;
@@ -186,4 +182,8 @@ a:hover, a:active {
 }
 #discography a {
 	font-size: 110%;
+}
+.featured-date {
+	color: #50505F;
+	margin-left: .5em;
 }
