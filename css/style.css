@@ -280,7 +280,7 @@ a:hover, a:active {
 .discog a, .discog-extra a {
 	font-family: 'Instrument Serif', serif;
 	text-transform: uppercase;
-	letter-spacing: .08em;
+	letter-spacing: .06em;
 	font-size: 1.4em!important;
 }
 .discog-extra {
