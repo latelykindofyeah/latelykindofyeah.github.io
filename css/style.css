@@ -6,7 +6,7 @@ html {
 
 body {
 	background-color: #0F0C18;
-	color: #E0E0EF;
+	color: #E0E0EE;
 }
 .navbar {
 	background-color: #000!important;
@@ -37,7 +37,7 @@ body {
 	margin-bottom: 1em;
 }
 :root {
-	--nav-offset: 4.5em;
+	--nav-offset: 5.2em;
 }
 #discography,
 #about,
@@ -66,9 +66,11 @@ h1 {
 	padding-top: .19em;
 }
 h2 {
+	font-family: 'Instrument Serif', serif;
+	text-transform: uppercase;
 	margin-top: .7em;
 	margin-bottom: .7em;
-	letter-spacing: -.03em;
+	letter-spacing: .08em;
 	font-size: 1.7em;
 }
 h3 {
@@ -84,10 +86,10 @@ h3 {
 	letter-spacing: .08em;
 	padding-top: 4px!important;
 	margin-left: .3em!important;
-	color: #80808F!important;
+	color: #80808E!important;
 }
 .nav-link:hover {
-	color: #cb154f!important;
+	color: #cb154E!important;
 }
 .logo {
 	opacity: .90;
@@ -121,8 +123,8 @@ h3 {
 }
 .git-1 {
 	color: #fff!important;
-	text-shadow: 1px 1px #cb154f;
-	background-color: #cb154f;
+	text-shadow: 1px 1px #cb154E;
+	background-color: #cb154E;
 	border-radius: .3em;
 	padding-left: .7em!important;
 	padding-right: .7em!important;
@@ -138,9 +140,9 @@ h3 {
 	letter-spacing: .08em;
 	font-size: 1.3em;
 	font-weight: bold;
-	color: #B0B0BF!important;
+	color: #B0B0BE!important;
 	text-shadow: 1px 1px #000;
-	background-color: #50505F;
+	background-color: #50505E;
 	border-radius: .3em;
 	padding-top: .3em!important;
 	padding-left: .7em!important;
@@ -148,8 +150,8 @@ h3 {
 	padding-bottom: .4em!important;
 }
 .git-2:hover {
-	background-color: #30303F;
-	color: #E0E0EF!important;
+	background-color: #30303E;
+	color: #E0E0EE!important;
 	text-decoration: none;
 }
 .dyns {
@@ -188,10 +190,10 @@ object {
 	opacity: 1;
 }
 a:link, a:visited {
-	color: #B0B0BF;
+	color: #B0B0BE;
 }
 a:hover, a:active {
-	color: #cb154f;
+	color: #cb154E;
 	text-decoration: none;
 }
 .navbar-brand h1 {
@@ -208,7 +210,7 @@ a:hover, a:active {
 	}
 }
 .navbar-brand {
-	color: #cb154f!important;
+	color: #cb154E!important;
 }
 .navbar-brand:hover {
 	color: #EC3C74!important;
@@ -227,24 +229,46 @@ a:hover, a:active {
 }
 .album-date {
 	font-size: 80%;
-	color: #50505F;
+	color: #50505E;
 	margin-top: -.1em;
 }
 .featured-date {
 	font-size: 80%;
-	color: #50505F;
-	margin-left: .5em;
+	color: #50505E;
+	margin-top: -.2em;
 }
 .about-quote {
-	color: #70707F;
+	color: #70707E;
 	margin: 0 0 1em 0;
 }
 .featured-quote {
-	color: #70707F;
+	color: #70707E;
 	margin: 1em 0 1em 0;
 }
 .featured-quote a {
 	font-style: italic;
+}
+#recently strong,
+#featured-on strong,
+#radio-mixes strong,
+#airplay strong,
+#audio-mastering strong {
+	font-family: 'Instrument Serif', serif;
+	text-transform: uppercase;
+	letter-spacing: .06em;
+	font-size: 135%!important;
+}
+#featured-on em,
+#radio-mixes em,
+#airplay em,
+#audio-mastering em {
+	font-style: normal;
+}
+#gallery a {
+	font-family: 'Instrument Serif', serif;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	font-size: 135%!important;
 }
 .gc a {
 	font-size: 120%;
@@ -252,6 +276,12 @@ a:hover, a:active {
 }
 .discog {
 	margin-bottom: 1em;
+}
+.discog a, .discog-extra a {
+	font-family: 'Instrument Serif', serif;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	font-size: 1.4em!important;
 }
 .discog-extra {
 	max-height: 0;
