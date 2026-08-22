@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+body {
+	background-color: #0F0C18;
+	color: #E0E0EF;
+}
+.navbar {
+	background-color: #000!important;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.brush {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 5px 7px 0 0;
+}
+.brushman {
+	width: 75%;
+	margin-top: 15px;
+}
+h1 {
+	font-family: 'Instrument Serif', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	padding-top: .19em;
+}
+h2 {
+	margin-top: .7em;
+	margin-bottom: .4em;
+	letter-spacing: -.03em;
+	font-size: 1.7em;
+}
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.row {
+	padding-bottom: 2em!important;
+}
+.nav-link {
+	font-family: 'Instrument Serif', serif;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	padding-top: 4px!important;
+	margin-right: .3em!important;
+	color: #808080!important;
+}
+.nav-link:hover {
+	color: #cb154f!important;
+}
+.logo {
+	opacity: .90;
+}
+.logo:hover {
+	opacity: 1;
+}
+.main-gallery {
+	margin-top: 1em;
+}
+.gallery-cell {
+	width: 100%;
+	text-align: center;
+}
+.gc {
+	text-align: center;
+	height: 50%;
+}
+.gallery-cell img {
+	height: 50%;
+}
+.boxx-0 {
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+	margin-top: -.4em;
+	padding-bottom: 1em;
+}
+.boxx-1 {
+	padding-bottom: 2em;
+}
+.git-1 {
+	color: #fff!important;
+	text-shadow: 1px 1px #cb154f;
+	background-color: #cb154f;
+	border-radius: .3em;
+	padding-left: .7em!important;
+	padding-right: .7em!important;
+	margin-left: .3em;
+}
+.git-1:hover {
+	background-color: #EC3C74;
+	color: #fff!important;
+}
+.git-2 {
+	font-family: 'Instrument Serif', serif;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #fff!important;
+	text-shadow: 1px 1px #cb154f;
+	background-color: #cb154f;
+	border-radius: .3em;
+	padding-top: .3em!important;
+	padding-left: .7em!important;
+	padding-right: .7em!important;
+	padding-bottom: .45em!important;
+}
+.git-2:hover {
+	background-color: #EC3C74;
+	color: #fff!important;
+	text-decoration: none;
+}
+.dyns {
+	padding: 4em 0 3em 0;
+}
+.git-box {
+	width: 300px!important;
+}
+ul {
+}
+.contact-box {
+	padding-top: 1em;
+}
+.leader {
+	padding-top: 3em;
+	font-size: 1.1em;
+}
+object {
+	height: 650px;
+	min-height: 101%;
+	min-width: 100%;
+	overflow: hidden;
+}
+.submit-button {
+	width: 100%;
+	text-align: center;
+}
+.img-fluid {
+	border-radius: .3em;
+}
+.featured-date {
+	color: #50505F;
+	display: inline;
+	margin-left: .5em;
+}
+.albumcover {
+	opacity: .90;
+	margin-bottom: .2em;
+}
+.albumcover:hover {
+	opacity: 1;
+}
+.album-date {
+	color: #50505F;
+	margin-top: -.3em;
+}
+a:link, a:visited {
+	color: #B0B0BF;
+}
+a:hover, a:active {
+	color: #cb154f;
+	text-decoration: none;
+}
+.about-quote {
+	color: #70707F;
+	margin: 0 0 1em 0;
+}
+.featured-quote {
+	color: #70707F;
+	margin: 1em 0 1em 0;
+}
+.navbar-brand {
+	color: #cb154f!important;
+}
+.navbar-brand:hover {
+	color: #EC3C74!important;
+}
+#discography a {
+	font-weight: bold;
+}
