@@ -144,7 +144,6 @@ object {
 }
 .featured-date {
 	color: #50505F;
-	display: inline;
 	margin-left: .5em;
 }
 .albumcover {
@@ -156,7 +155,7 @@ object {
 }
 .album-date {
 	color: #50505F;
-	margin-top: -.3em;
+	margin-top: -.1em;
 }
 a:link, a:visited {
 	color: #B0B0BF;
@@ -181,4 +180,10 @@ a:hover, a:active {
 }
 #discography a {
 	font-weight: bold;
+}
+.boxx-5 a, .boxx-6 a, .boxx-7 a, .boxx-8 a {
+	font-size: 95%;
+}
+#discography a {
+	font-size: 110%;
 }
