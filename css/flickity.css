@@ -45,13 +45,13 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(234, 234, 255, 0.3);
   border: none;
   color: #000;
 }
 
 .flickity-button:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(234, 234, 255, 0.4);
   cursor: pointer;
 }
 
