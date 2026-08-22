@@ -156,14 +156,6 @@ a:hover, a:active {
 	color: #cb154f;
 	text-decoration: none;
 }
-.about-quote {
-	color: #70707F;
-	margin: 0 0 1em 0;
-}
-.featured-quote {
-	color: #70707F;
-	margin: 1em 0 1em 0;
-}
 .navbar-brand {
 	color: #cb154f!important;
 }
@@ -191,4 +183,15 @@ a:hover, a:active {
 	font-size: 80%;
 	color: #50505F;
 	margin-left: .5em;
+}
+.about-quote {
+	color: #70707F;
+	margin: 0 0 1em 0;
+}
+.featured-quote {
+	color: #70707F;
+	margin: 1em 0 1em 0;
+}
+.featured-quote a {
+	font-style: italic;
 }
