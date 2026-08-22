@@ -27,10 +27,11 @@ body {
 	opacity: 1;
 	pointer-events: auto;
 }
-#about {
+#featured-on {
 	margin-top: -1em;
 }
 #featured-on,
+#about,
 #radio-mixes,
 #airplay,
 #audio-mastering {
