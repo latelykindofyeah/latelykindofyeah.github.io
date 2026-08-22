@@ -33,7 +33,26 @@
       </div>
     </div>
   </nav>
-  <div class="boxx-0">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-sticky" id="stickyNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <h1>Full Archive</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsiveSticky" aria-controls="navbarResponsiveSticky" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsiveSticky">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#discography">Discography</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#featured-on">Featured</a></li>
+          <li class="nav-item"><a class="nav-link" href="#radio-mixes">Radio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#audio-mastering">Mastering</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <a href="#" id="back-to-top" class="git-2 git-3" aria-label="Back to top">↑</a>
+  <div class="boxx-0" id="top-logo">
     <div class="container">
       <a href="index.html"><img src="img/lkoy.png" class="img-fluid logo" alt=""></a>
     </div>
@@ -565,6 +584,27 @@
       setupToggle('radio-toggle', '.radio-extra', 'View Less', 'View All');
       setupToggle('airplay-toggle', '.airplay-extra', 'View Less', 'View All');
       setupToggle('mastering-toggle', '.mastering-extra', 'View Less', 'View All');
+
+      var stickyNav = document.getElementById('stickyNav');
+      var backToTop = document.getElementById('back-to-top');
+      var logoSection = document.getElementById('top-logo');
+
+      if (stickyNav && logoSection) {
+        var toggleNav = function () {
+          var pastLogo = window.scrollY > (logoSection.offsetTop + logoSection.offsetHeight - 40);
+          stickyNav.classList.toggle('nav-visible', pastLogo);
+          if (backToTop) backToTop.classList.toggle('nav-visible', pastLogo);
+        };
+        window.addEventListener('scroll', toggleNav, { passive: true });
+        toggleNav();
+      }
+
+      if (backToTop) {
+        backToTop.addEventListener('click', function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
     });
   </script>
 </body>
