@@ -185,7 +185,7 @@ object {
 }
 .albumcover {
 	opacity: .90;
-	margin-bottom: .2em;
+	margin-bottom: .3em;
 }
 .albumcover:hover {
 	opacity: 1;
@@ -231,6 +231,7 @@ a:hover, a:active {
 .album-date {
 	font-size: 80%;
 	color: #50505E;
+	margin-top: -.1em;
 }
 .featured-date {
 	font-size: 80%;
