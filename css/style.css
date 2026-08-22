@@ -149,10 +149,6 @@ object {
 .albumcover:hover {
 	opacity: 1;
 }
-.album-date {
-	color: #50505F;
-	margin-top: -.1em;
-}
 a:link, a:visited {
 	color: #B0B0BF;
 }
@@ -177,13 +173,22 @@ a:hover, a:active {
 #discography a {
 	font-weight: bold;
 }
-.boxx-5 a, .boxx-6 a, .boxx-7 a, .boxx-8 a {
+.boxx-2 a, .boxx-5 a, .boxx-6 a, .boxx-7 a, .boxx-8 a {
 	font-size: 95%;
 }
+.boxx-2 strong, .boxx-5 strong, .boxx-6 strong, .boxx-7 strong, .boxx-8 strong {
+	font-size: 120%!important;
+}
 #discography a {
-	font-size: 110%;
+	font-size: 120%;
+}
+.album-date {
+	font-size: 80%;
+	color: #50505F;
+	margin-top: -.1em;
 }
 .featured-date {
+	font-size: 80%;
 	color: #50505F;
 	margin-left: .5em;
 }
