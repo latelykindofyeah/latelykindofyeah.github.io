@@ -150,7 +150,7 @@ h3 {
 	font-size: 1.3em;
 	font-weight: bold;
 	color: #B0B0BE!important;
-	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #30303E;
 	background-color: #50505E;
 	border-radius: .3em;
 	padding-top: .3em!important;
@@ -160,7 +160,7 @@ h3 {
 }
 .git-2:hover {
 	background-color: #30303E;
-	color: #E0E0EE!important;
+	color: #B0B0BE!important;
 	text-decoration: none;
 }
 .dyns {
