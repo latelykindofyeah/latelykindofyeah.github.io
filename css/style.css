@@ -328,21 +328,21 @@ a:hover, a:active {
 	font-size: 120%;
 }
 .git-3 {
-	padding-top: .1em!important;
-	padding-left: .7em!important;
-	padding-right: .7em!important;
-	padding-bottom: .5em!important;
+	padding-top: 0em!important;
+	padding-left: .5em!important;
+	padding-right: .4em!important;
+	padding-bottom: .4em!important;
 	font-weight: bold;
 	position: fixed;
-	bottom: 1em;
+	bottom: 2em;
 	right: 1em;
 	z-index: 1031;
-	opacity: 0;
 	pointer-events: none;
+	font-size: 150%;
 	transition: opacity .5s ease, background-color .2s ease, color .2s ease;
 }
 .git-3.nav-visible {
-	opacity: 1;
+	opacity: .7;
 	pointer-events: auto;
 }
 .boxx-0f {
