@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
-
 html {
 	scroll-behavior: smooth;
+	color-scheme: dark;
 }
 
 body {
@@ -20,12 +19,15 @@ body {
 	width: 100%;
 	z-index: 1030;
 	opacity: 0;
+	visibility: hidden;
 	pointer-events: none;
-	transition: opacity .5s ease;
+	transition: opacity .5s ease, visibility 0s linear .5s;
 }
 .navbar-sticky.nav-visible {
 	opacity: 1;
+	visibility: visible;
 	pointer-events: auto;
+	transition: opacity .5s ease, visibility 0s linear;
 }
 #featured-on {
 	margin-top: -1em;
@@ -100,6 +102,10 @@ h3 {
 }
 .main-gallery {
 	margin-top: 1em;
+	max-width: 992px!important;
+	width: 100%!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
 }
 .gallery-cell {
 	width: 100%;
@@ -107,10 +113,10 @@ h3 {
 }
 .gc {
 	text-align: center;
-	height: 50%;
 }
 .gallery-cell img {
-	height: 50%;
+	max-width: 100%!important;
+	height: auto!important;
 }
 .boxx-0 {
 	width: 100%;
@@ -118,6 +124,8 @@ h3 {
 	text-align: center;
 	margin-top: -.4em;
 	padding-bottom: 1em;
+	position: relative;
+	z-index: 1040;
 }
 .boxx-1 {
 	padding-bottom: 2em;
@@ -199,16 +207,32 @@ a:hover, a:active {
 }
 .navbar-brand h1 {
 	position: relative;
-	top: 3px;
+	top: 5px;
 }
 .navbar-toggler {
 	position: relative;
-	top: -1px;
+	top: 2px;
 }
 @media (max-width: 991.98px) {
 	.navbar-nav .nav-item:last-child {
 		padding-bottom: .3em!important;
 	}
+	.navbar {
+		padding-top: max(0px, calc(0.5rem - 1em))!important;
+	}
+	.navbar-collapse .navbar-nav {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.navbar-nav .nav-link {
+		text-align: center;
+		padding-left: .5rem!important;
+		padding-right: .5rem!important;
+	}
+}
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='%23B0B0BE' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
 }
 .navbar-brand {
 	color: #cb154E!important;
@@ -259,6 +283,7 @@ a:hover, a:active {
 	letter-spacing: .06em;
 	font-size: 135%!important;
 }
+#recently em,
 #featured-on em,
 #radio-mixes em,
 #airplay em,
@@ -274,6 +299,15 @@ a:hover, a:active {
 .gc a {
 	font-size: 120%;
 	font-weight: bold;
+}
+@media (max-width: 575.98px) {
+	#gallery a,
+	.gc a {
+		font-size: 100%!important;
+	}
+	.album-date {
+		font-size: 75%!important;
+	}
 }
 .discog {
 	margin-bottom: 1em;
