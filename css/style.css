@@ -5,7 +5,7 @@ html {
 
 body {
 	background-color: #0F0C18;
-	color: #E0E0EE;
+	color: #E0E0EA;
 }
 .navbar {
 	background-color: #000!important;
@@ -89,10 +89,10 @@ h3 {
 	letter-spacing: .08em;
 	padding-top: 4px!important;
 	margin-left: .3em!important;
-	color: #80808E!important;
+	color: #80808A!important;
 }
 .nav-link:hover {
-	color: #cb154E!important;
+	color: #cb154A!important;
 }
 .logo {
 	opacity: .90;
@@ -132,8 +132,8 @@ h3 {
 }
 .git-1 {
 	color: #fff!important;
-	text-shadow: 1px 1px #cb154E;
-	background-color: #cb154E;
+	text-shadow: 1px 1px #cb154A;
+	background-color: #cb154A;
 	border-radius: .3em;
 	padding-left: .7em!important;
 	padding-right: .7em!important;
@@ -141,7 +141,6 @@ h3 {
 }
 .git-1:hover {
 	background-color: #EC3C74;
-	color: #fff!important;
 }
 .git-2 {
 	font-family: 'Instrument Serif', serif;
@@ -149,9 +148,9 @@ h3 {
 	letter-spacing: .08em;
 	font-size: 1.3em;
 	font-weight: bold;
-	color: #B0B0BE!important;
-	text-shadow: 1px 1px #30303E;
-	background-color: #50505E;
+	color: #B0B0BA!important;
+	text-shadow: 1px 1px #30303A;
+	background-color: #50505A;
 	border-radius: .3em;
 	padding-top: .3em!important;
 	padding-left: .7em!important;
@@ -159,8 +158,8 @@ h3 {
 	padding-bottom: .4em!important;
 }
 .git-2:hover {
-	background-color: #30303E;
-	color: #B0B0BE!important;
+	background-color: #30303A;
+	color: #B0B0BA!important;
 	text-decoration: none;
 }
 .dyns {
@@ -199,10 +198,10 @@ object {
 	opacity: 1;
 }
 a:link, a:visited {
-	color: #B0B0BE;
+	color: #B0B0BA;
 }
 a:hover, a:active {
-	color: #cb154E;
+	color: #cb154A;
 	text-decoration: none;
 }
 .navbar-brand h1 {
@@ -235,7 +234,7 @@ a:hover, a:active {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='%23B0B0BE' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
 }
 .navbar-brand {
-	color: #cb154E!important;
+	color: #cb154A!important;
 }
 .navbar-brand:hover {
 	color: #EC3C74!important;
@@ -254,20 +253,20 @@ a:hover, a:active {
 }
 .album-date {
 	font-size: 80%;
-	color: #50505E;
+	color: #50505A;
 	margin-top: -.1em;
 }
 .featured-date {
 	font-size: 80%;
-	color: #50505E;
+	color: #50505A;
 	margin-top: -.1em;
 }
 .about-quote {
-	color: #70707E;
+	color: #70707A;
 	margin: 0 0 1em 0;
 }
 .featured-quote {
-	color: #70707E;
+	color: #70707A;
 	margin: 1em 0 1em 0;
 }
 .featured-quote a {
@@ -383,7 +382,7 @@ a:hover, a:active {
 	width: 100%;
 	background-color: #000;
 	font-size: 80%;
-	color: #50505F;
+	color: #50505A;
 	text-align: center;
 	padding: 1.3em 0 .7em 0;
 }
