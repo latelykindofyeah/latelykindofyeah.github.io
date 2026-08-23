@@ -300,6 +300,9 @@ a:hover, a:active {
 	font-weight: bold;
 }
 @media (max-width: 575.98px) {
+	html {
+		font-size: 95%;
+	}
 	#gallery a,
 	.gc a {
 		font-size: 100%!important;
